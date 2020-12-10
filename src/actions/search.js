@@ -14,17 +14,11 @@ var handleVideoSearch = (q) => {
       query: q,
       max: 5
     };
-    // debugger;
     searchYouTube(options, (videos) => {
-      dispatch(changeVideo(videos[0]));
       dispatch(changeVideoList(videos));
+      dispatch(changeVideo(videos[0]));
     });
   };
-
-  /* return (dispatch) => {
-    dispatch(changeVideo(videos[0]));
-    dispatch(changeVideoList(videos));
-  }; */
 };
 
 export default handleVideoSearch;
