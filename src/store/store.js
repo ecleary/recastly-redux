@@ -14,8 +14,8 @@ const configureStore = (initialState) => {
 };
 
 let initialState = {
-  videos: [],
-  currentVideo: {}
+  currentVideo: exampleVideoData[0],
+  videoList: exampleVideoData
 };
 // var store = createStore(rootReducer, applyMiddleware(thunk));
 
