@@ -7,3 +7,15 @@ var VideoPlayerContainer = () => {};
 //dispatchers with your VideoPlayer component props.
 
 export default VideoPlayerContainer;
+
+
+/*
+
+var mapDispatchToProps = (dispatch) => {
+  dispatch(currentVideo(video))
+}
+
+
+var VideoPlayerContainer = connect(mapStateToProps, mapDispatchToProps)(VideoPlayer);
+
+*/
