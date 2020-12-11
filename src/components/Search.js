@@ -10,13 +10,6 @@ class Search extends React.Component {
     };
   }
 
-  // handleSearchInputChange(e) {
-  //   this.props.getYouTubeVideos(e.target.value);
-  //   this.setState({
-  //     value: e.target.value
-  //   });
-  // }
-
   render() {
     return (
       <div className="search-bar form-inline">
