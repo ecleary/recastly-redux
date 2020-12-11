@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App.js';
-import Provider from 'react-redux';
+import { Provider } from 'react-redux';
+import store from './store/store.js';
 
 //TODO: Import the Provider component from 'react-redux' here!
 
